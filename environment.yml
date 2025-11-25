@@ -1,0 +1,23 @@
+﻿name: deepfake2026
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - cudatoolkit=11.8
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip:
+    - opencv-python
+    - tqdm
+    - pillow
+    - scikit-learn
+    - tensorboard
